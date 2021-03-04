@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .hover,
+        .selected {
+            position: absolute;
+            height: 220px;
+            width: 220px;
+        }
+
+        .hover{
+            box-shadow: 0 0 0 2px rgba(11, 249, 2, 0.13);
+        }
+
+        .selected{
+            box-shadow: 0 0 0 2px rgba(175, 176, 183, 0.28);
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .bg-red{
+            background: red;
+        }
+
+        .bg-black{
+            background: black;
+        }
+
+        html,
+        body{
+            /*height: 100%;*/
+            min-height: 100%;
+            height: 2000px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="test" style="top: 10px; left: 30px" class="hover qwe  qwe qwe   qwe"></div>
+    <div style="top: 20px; left: 40px" class="selected"></div>
+
+
+    <div style="top: 10px; left: 340px; width: 340px" class="hover"></div>
+    <div style="top: 20px; left: 340px;" class="selected"></div>
+
+
+    <div style="top: 10px; left: 980px; width: 340px" class="hover"></div>
+    <div style="top: 20px; left: 740px;" class="selected bg-red"></div>
+
+
+
+    <div style="top: 340px; left: 340px;" class="hover">Test</div>
+    <div style="top: 360px; left: 360px; width: 180px;  height: 180px; padding: 20px 15px 30px" class="selected">padding</div>
+
+
+    <div style="top: 340px; left: 40px; padding: 20px 15px 30px 7px" class="hover">padding1</div>
+    <div style="top: 350px; left: 30px; background: #000000" class="selected"></div>
+
+
+    <div style="top: 380px; left: 700px; width: 340px;  height: 150px" class="hover bg-black"></div>
+    <div style="top: 350px; left: 740px;" class="selected"></div>
+
+
+    <div style="bottom: 0; left: 740px;" class="selected"></div>
+<script type="text/javascript" src="inject.bundle.js"></script></body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "author": "Liubomyr Kozak",
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "background.bundle.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/new_logo2/zTool-16.png",
+      "32": "images/new_logo2/zTool-32.png"
+    },
+    "default_title": "Inspector [2.0.0]"
+  },
+  "description": "Inspector is the tool which mimic display dimension between selected and hover element. It would be good for designers, QA",
+  "icons": {
+    "128": "images/new_logo2/zTool-128-active.png",
+    "16": "images/new_logo2/zTool-16.png",
+    "32": "images/new_logo2/zTool-32.png",
+    "48": "images/new_logo2/zTool-64-active.png"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjEZVufnqvIwPVD2iGCvbcJho1Y45Mg8r9sZagIetOefGQstnQDiI7gMEjcsIniX9Dnm8B+e7zSU3fB+SJqpQ6Vcq6lN3A/pWbcgD1YZT6CTqtqW7JFEqIMIJ106nDRVDoUd8ZYnrqN3cX3EMAUFv9uuZ+AmCmGa//Iqwa21CQgVqq/hzWbvA5eAau0N+YED7WqxK+XWNxcpWcjGBmhgSWa7eAX3f/MHEizPHLPc+1bKO9pNv8ILgN1TVkqCfR6HlC75LOGrr5VLf4CqMN56as+//7mu1s0CM2w5lNYqNsjMbhFI03MiT63RGLbykN4NB8+N9xyGerHdiny1oGjIFmQIDAQAB",
+  "manifest_version": 2,
+  "name": "Hover inspector like in Zeplin , Figma",
+  "permissions": [
+    "activeTab"
+  ],
+  "short_name": "Inspector [2.0.0]",
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "2.0.0"
+}
